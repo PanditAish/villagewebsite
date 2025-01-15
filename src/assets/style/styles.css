@@ -9,7 +9,10 @@
 }
 
 .colormenu{
-  color: #071952!important;
+  color: #0b2374!important;
+}
+.colormenu:hover{
+  color: #615EFC!important;
 }
 
 .heading{
@@ -26,7 +29,65 @@
   height: 70px;
 }
 
+.topbar{
+  background-color: #012348;    /*#012348; */
+}
+
+.mobmenulogo{
+  color: #0b2374;
+  font-weight: 600!important;
+}
+
+.topbar ul{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem; 
+  margin: 8px;
+  padding: 8px;
+  list-style: none;
+}
+
+.topbar ul .list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.listlink{
+  color: white;
+  text-decoration: none;
+}
+
+.listlink:hover, .linktag:hover{
+  color: #7CF5FF!important;
+}
+
+.fontlist{
+  font-size: 18px;
+}
+.fontlistS{
+  font-size: 25px;
+}
+
+.mobtwo{
+   display: flex;
+   justify-content: end;
+   align-items: end;
+}
+
 @media only screen and (max-width: 1000px) {
+  .topbar ul{
+    margin: 5px;
+  }
+  .mobone{
+    border-bottom: 1px solid rgb(87, 87, 87);
+  }
+  .midmob{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
   .menucolor{
     background-color: #EBF4F6;
    }
